@@ -1,0 +1,31 @@
+main {
+  padding: 1.25rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+main#left {
+  overflow: hidden;
+}
+
+main#left img{
+  max-width: 100%;
+  height: auto;
+}
+
+main #right {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+ 
+main #right .title{
+  color: #F8F9FC;
+  margin-bottom: 0.125rem;
+}
+
+main #right .subtitle{
+  color: #E6E8F2;
+  margin-bottom: 2.5rem;
+}
