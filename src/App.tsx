@@ -1,6 +1,6 @@
 import './App.module.css'
 import Image from './assets/image.png'
-import styles from './Login.module.css';
+import styles from './Aogin.module.css';
 
 function App() {
 
