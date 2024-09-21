@@ -1,18 +1,22 @@
 import './App.module.css'
 import Image from './assets/image.png'
+import styles from './Login.module.css';
 
 function App() {
 
   return (
-    <main>
-      <div id='left'>
-        <img src={Image} alt="imagem de fundo" />
+    <div className={styles.container}>
+      <div className={styles.left}>
+        <img src={Image} alt="BookWise Logo" className={styles.logo} />
       </div>
-      <div id='right'>
-        <h1 className='title'>Boas vindas!</h1>
-        <h2 className='subtitle'>Faça seu login ou acesse como visitante.</h2>
+      <div className={styles.right}>
+        <h1>Boas vindas!</h1>
+        <p>Faça seu login ou acesse como visitante.</p>
+        <button className={styles.googleButton}>Entrar com Google</button>
+        <button className={styles.githubButton}>Entrar com GitHub</button>
+        <button className={styles.visitorButton}>Acessar como visitante</button>
       </div>
-    </main>
+    </div>
   )
 }
 
