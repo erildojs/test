@@ -3,26 +3,19 @@
   height: 100vh;
 }
 
-.left {
-  flex: 1;
-  background: linear-gradient(135deg, #2e3a59, #1c1f26);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .logo {
-  width: 50%;
-  max-width: 300px;
+  width: 100%;
+  max-width: 500px;
+  /* padding: 1.5rem; */
 }
 
 .right {
   flex: 1;
-  background-color: #1c1f26;
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 20px;
 }
 
@@ -32,6 +25,7 @@ h1 {
 }
 
 p {
+  opacity: 0.7;
   margin-bottom: 40px;
 }
 
@@ -40,24 +34,32 @@ p {
 .visitorButton {
   background-color: #3b3f44;
   border: none;
-  padding: 15px;
+  height: 4.5rem;
   color: #fff;
   margin-bottom: 20px;
   font-size: 1rem;
   cursor: pointer;
+  max-width: 352px;
   width: 100%;
-  text-align: center;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding-left: 20px;
 }
 
 .googleButton {
-  background-color: #4285f4;
+  background-color: #252D4A;
 }
 
 .githubButton {
-  background-color: #333;
+  background-color: #252D4A;
 }
 
 .visitorButton {
-  background-color: #5a5f64;
+  background-color: #252D4A;
+}
+
+.imagep {
+  margin-right: 1.5rem;
 }
